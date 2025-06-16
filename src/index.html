@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>LoopLess Inspired Site</title>
+  <title>LoopLess App</title>
+  <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
   
 
 
@@ -22,8 +23,8 @@
             heading: ['Poppins', 'sans-serif'],
           },
           colors: {
-            primary: '#4f46e5',
-            primaryDark: '#4338ca',
+            primary: '#08a1ff',
+            primaryDark: '#37eeff',
           },
           boxShadow: {
             soft: '0 4px 20px rgba(0,0,0,0.1)',
@@ -65,12 +66,12 @@
   <div class="relative z-10 max-w-7xl mx-auto px-6 md:px-12">
 
     <!-- Navbar -->
-    <nav class="flex items-center justify-between py-6">
+    <nav class="flex items-center justify-between py-6 mt-5">
       <div class="text-2xl font-heading font-bold tracking-wide text-primary dark:text-primaryDark">
         
       </div>
-      <button id="darkToggle" aria-label="Toggle Dark Mode" class="focus:outline-none p-2 rounded hover:bg-gray-200 dark:hover:bg-gray-700">
-        <svg id="iconSun" class="w-6 h-6 hidden dark:block text-yellow-400" fill="currentColor" viewBox="0 0 24 24"><path d="M12 4.5v-3m0 19.5v-3m9-9h3m-19.5 0h3m13.5 7.5l2.12 2.12m-15-15l2.12 2.12m13.5-2.12L16.5 7.5m-9 9L7.5 16.5M12 8a4 4 0 100 8 4 4 0 000-8z"/></svg>
+      <button id="darkToggle" aria-label="Toggle Dark Mode" class="focus:outline-none p-2 rounded-2xl bg-gray-400 hover:bg-sky-200 dark:hover:bg-sky-200 padding-right: 2rem">
+        <svg id="iconSun" class="w-6 h-6 hidden dark:block text-yellow-400" fill="currentColor" viewBox="8 8 8 8"><path d="M12 4.5v-3m0 19.5v-3m9-9h3m-19.5 0h3m13.5 7.5l2.12 2.12m-15-15l2.12 2.12m13.5-2.12L16.5 7.5m-9 9L7.5 16.5M12 8a4 4 0 100 8 4 4 0 000-8z"/></svg>
         <svg id="iconMoon" class="w-6 h-6 dark:hidden" fill="currentColor" viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1111.21 3a7 7 0 009.79 9.79z"/></svg>
       </button>
     </nav>
@@ -401,8 +402,8 @@
 
     <section class="py-24 bg-gradient-to-br from-[#f9fafb] via-[#eef1f5] to-[#e8ecf0] dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
   <div class="max-w-6xl mx-auto px-6">
-    <h2 class="text-4xl sm:text-5xl font-bold text-center bg-gradient-to-r from-indigo-500 to-sky-400 bg-clip-text text-transparent mb-16">
-      Why CBT Works
+    <h2 class="text-4xl sm:text-5xl font-bold text-center bg-gradient-to-r from-primary to-sky-400 bg-clip-text text-transparent mb-16">
+      How CBT Works
     </h2>
 
     <div class="grid md:grid-cols-2 gap-8">
@@ -447,7 +448,7 @@
 
 <section class="py-24 bg-gradient-to-br from-[#f1f5f9] via-[#e2e8f0] to-[#f8fafc] dark:from-gray-800 dark:via-gray-900 dark:to-gray-800">
   <div class="max-w-6xl mx-auto px-6">
-    <h2 class="text-4xl sm:text-5xl font-bold text-center bg-gradient-to-r from-sky-400 to-indigo-500 bg-clip-text text-transparent mb-16">
+    <h2 class="text-4xl sm:text-5xl font-bold text-center bg-gradient-to-r from-primary to-indigo-500 bg-clip-text text-transparent mb-16">
       How LoopLess Helps
     </h2>
 
@@ -509,7 +510,7 @@
       Be the First to Break Free 📱💥
     </h2>
     <p class="mt-2 text-lg md:text-xl text-blue-400/80 font-medium">
-      Join the waitlist for early access to <span class="text-indigo-400 font-semibold">LoopLess</span> and start reclaiming your time.
+      Join the waitlist for early access to <span class="text-primary font-semibold">LoopLess</span> and start reclaiming your time.
     </p>
   </div>
 </section>
@@ -522,7 +523,7 @@
       id="email" 
       placeholder="Enter your email" 
       required 
-      class="p-3 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
+      class="p-3 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 text-black"
     />
     <button 
       type="submit" 
@@ -780,7 +781,7 @@
 
 
 <!-- Testimonials Section -->
-<section class="py-20 bg-gradient-to-r from-indigo-50 to-purple-100 dark:from-gray-800 dark:to-gray-900 rounded-lg mt-16 max-w-5xl mx-auto px-6">
+<section class="py-20 bg-gradient-to-r from-primary to-purple-100 dark:from-primaryDark dark:to-gray-900 rounded-lg mt-16 max-w-5xl mx-auto px-6">
   <h2 class="text-3xl font-heading font-bold text-center mb-12 text-blue-400">What Our Users Say</h2>
   <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
     <blockquote class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-soft text-gray-700 dark:text-gray-300">
